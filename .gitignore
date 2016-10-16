@@ -1,0 +1,19 @@
+# Java
+target
+.idea
+*.bak
+*.iml
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#JavaScript
+node_modules
+bower_components
