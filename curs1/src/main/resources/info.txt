@@ -1,4 +1,4 @@
-Mihai MOGOS - 0726197225 - mihai.mogos@gmail.com
+Mihai MOGOS
 	- Scrum Master - TIGER Team
 	- DevOps - 9 DevEngineers - FullStack - Angular + Java
 	- Automarizare - testare automara + deployment automat
