@@ -30,3 +30,5 @@ public class HelloWorld {
 // get used to Intellij
 // checkout chess diagram from resource
 // oop diagram
+
+// coding to an interface
