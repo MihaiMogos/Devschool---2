@@ -26,7 +26,8 @@ Java 9
 For next time - read about Maven
 			  - get used to Intellij
 			  - checkout chess diagram from resrouces
-
+              - "Clean Code" book(by Martin Fowler)
+              - de terminat chess-ul
 
 
 			
