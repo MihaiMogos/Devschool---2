@@ -26,6 +26,7 @@ Java 9
 For next time - read about Maven
 			  - get used to Intellij
 			  - checkout chess diagram from resrouces
+			  - CleanCode Book Martin Fowler
 
 
 
