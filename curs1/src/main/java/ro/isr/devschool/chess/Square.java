@@ -29,7 +29,7 @@ public class Square {
 //        super(); //apeleaza object
 //    }
 
-    /*
+    /***
     public int getRow() { return this.row; }
     public void setRow(int row){ this.row = row; }
         // row = row ---> shadowing
