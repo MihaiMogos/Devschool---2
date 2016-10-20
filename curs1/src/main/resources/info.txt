@@ -28,5 +28,5 @@ For next time - read about Maven
 			  - checkout chess diagram from resrouces
 
 
-
+De citit cartea Clean Code Book-> Martin Fowler
 			
