@@ -24,10 +24,9 @@ public class Square {
     @Getter @Setter
     private int column;
 
-    // default constructor
-//    public Square() {
-//        super(); //apeleaza object
-//    }
+    public Square() {
+        super(); //apeleaza object
+    }
 
     /***
     public int getRow() { return this.row; }

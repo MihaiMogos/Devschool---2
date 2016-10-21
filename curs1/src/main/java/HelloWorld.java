@@ -18,11 +18,9 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.printf("Hello World !");
 
-        Square s = new Square(2,3);
-        s.getRow();
+        Square s = new Square();
+
         //System.out.println(s);
-
-
     }
 }
 
