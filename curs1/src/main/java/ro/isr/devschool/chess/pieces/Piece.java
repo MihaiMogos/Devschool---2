@@ -1,8 +1,9 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.pieces;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import ro.isr.devschool.chess.gamelogic.Square;
 
 /**
  * Created by Valentin on 10/20/2016.

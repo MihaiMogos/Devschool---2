@@ -1,4 +1,4 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.gamelogic;
 
 /**
  * Created by Valentin on 10/21/2016.

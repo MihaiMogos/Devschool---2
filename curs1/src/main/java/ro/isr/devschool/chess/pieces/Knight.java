@@ -1,10 +1,12 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.pieces;
+
+import ro.isr.devschool.chess.gamelogic.Square;
 
 /**
- * Created by Valentin on 10/20/2016.
+ * Created by Valentin on 10/22/2016.
  */
-public class Queen extends Piece{
-    public Queen(PieceColor color, Square place) {
+public class Knight extends Piece {
+    public Knight(PieceColor color, Square place) {
         super(color, place, false);
     }
 

@@ -1,4 +1,4 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.gamelogic;
 
 
 import lombok.AllArgsConstructor;
@@ -13,9 +13,6 @@ public class Square {
     private int row;
     private int column;
 
-//    public Square() {
-//        super();
-//    }
 
     public int getRow() {
         return row;

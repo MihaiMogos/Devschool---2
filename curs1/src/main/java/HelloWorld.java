@@ -1,6 +1,4 @@
-import ro.isr.devschool.chess.Square;
-
-import java.util.Collections;
+import ro.isr.devschool.chess.gamelogic.Square;
 
 /**
  * Created by Mucefix on 16/10/16.
