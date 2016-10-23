@@ -1,18 +1,18 @@
-Mihai MOGOS - 0726197225 - mihai.mogos@gmail.com
+Mihai MOGOS
 	- Scrum Master - TIGER Team
 	- DevOps - 9 DevEngineers - FullStack - Angular + Java
 	- Automarizare - testare automara + deployment automat
 	- testare automata - unit test / integration test / end to end
-	
+
 	- Java - OOP; Java 8; Untit Testing/Integration Testing
 			- Design Patterns
 			- Java EE
 			- Spring Boot - compared to Java EE
 			- git - GitHub - versionare
 			- Intellij - IDE - Integrated Development Environment
-			- maven - dependencies, packaging 
+			- maven - dependencies, packaging
 ===============================================
-Install Intellij - maven is packaged in Intellij 
+Install Intellij - maven is packaged in Intellij
 Install git
 Create github account
 JDK - JRE + compilator
@@ -21,12 +21,14 @@ JRE - contine JVM
 -----------------------------------------------
 bancuri despre programatori
 aplicatii cu threaduri
-Java 9 
+Java 9
 ----------------------------------------------
 For next time - read about Maven
 			  - get used to Intellij
 			  - checkout chess diagram from resrouces
 
 
-De citit cartea Clean Code Book-> Martin Fowler
-			
+Favour composition over inheritance
+	https://en.wikipedia.org/wiki/Composition_over_inheritance
+
+
