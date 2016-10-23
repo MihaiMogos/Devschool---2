@@ -1,4 +1,4 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.players;
 
 /**
  * Created by user on 10/20/2016.

@@ -1,11 +1,10 @@
 package ro.isr.devschool.chess;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 import ro.isr.devschool.chess.exception.InvalidPieceSetException;
+import ro.isr.devschool.chess.pieces.Piece;
 
-import java.security.Permission;
 import java.util.List;
 
 /**
