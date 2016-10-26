@@ -21,4 +21,4 @@ public enum PeaceType {
         return super.toString();
     }
 
-};
+}

@@ -1,12 +1,15 @@
 package ro.isr.devschool.chess;
 
 /**
- * Created by Computer on 10/20/2016.
+ * Created by Computer on 10/25/2016.
  */
+public class Pawn extends Piece {
 
-public class Queen extends Piece {
+    private boolean promoted;
+    private Piece promoteTo;
+    private moveDirection MoveDirection;
 
-    public Queen(PieceColor color, Square placeAt){
+    public Pawn (PieceColor color, Square placeAt){
         super(color, placeAt, false);
     }
 

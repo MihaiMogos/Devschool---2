@@ -4,9 +4,9 @@ package ro.isr.devschool.chess;
  * Created by Computer on 10/20/2016.
  */
 
-public class Queen extends Piece {
+public class Knight extends Piece {
 
-    public Queen(PieceColor color, Square placeAt){
+    public Knight (PieceColor color, Square placeAt){
         super(color, placeAt, false);
     }
 

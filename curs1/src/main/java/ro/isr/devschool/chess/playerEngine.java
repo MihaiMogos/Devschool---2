@@ -3,6 +3,7 @@ package ro.isr.devschool.chess;
 /**
  * Created by Computer on 10/20/2016.
  */
+
 public interface playerEngine {
     /*
      intr-o interfata putem avea:

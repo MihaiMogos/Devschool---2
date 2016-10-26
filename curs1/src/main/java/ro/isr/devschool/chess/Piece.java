@@ -22,6 +22,6 @@ public abstract class Piece {
     public abstract Square[] validMoves();
     public abstract Square[] attackSquare();
     public abstract Square[] captureFreeMoves();
-    public abstract Square[] toBeCaptured();
+    public abstract boolean toBeCaptured();
 
 }
