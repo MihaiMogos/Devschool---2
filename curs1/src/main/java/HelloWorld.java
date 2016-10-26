@@ -1,7 +1,3 @@
-import ro.isr.deveschool.chess.Square;
-
-import java.util.Collections;
-
 /**
  * Created by Mucefix on 16/10/16.
  */
@@ -17,7 +13,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.printf("Hello World !");
 
-        Square square = new Square(2,3);
-
+        Square s = new Square(2,2);
     }
 }
