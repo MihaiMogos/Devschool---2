@@ -1,11 +1,12 @@
-package ro.isr.deveschool.chess;
+package ro.isr.devschool.chess.pieces;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import ro.isr.deveschool.chess.exception.InvalidPieceSetException;
+import ro.isr.devschool.chess.ExampleInnerClassDoNotUse;
+import ro.isr.devschool.chess.exception.InvalidPieceSetException;
+import ro.isr.devschool.chess.pieces.Piece;
+import ro.isr.devschool.chess.pieces.PieceColor;
 
-import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -22,7 +23,7 @@ public class PieceSet {
         setPieces(pieces);
         this.color = color;
 
-        ExampleInnerClassDoNotUse.ExampleInnerInnerClass cucu = new ExampleInnerClassDoNotUse.ExampleInnerInnerClass();
+        //ExampleInnerClassDoNotUse.ExampleInnerInnerClass cucu = new ExampleInnerClassDoNotUse.ExampleInnerInnerClass();
     }
 
     private void validatePieceSet(List<Piece> pieces) {
