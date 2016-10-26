@@ -1,12 +1,16 @@
-package ro.isr.deveschool.chess;
+package ro.isr.deveschool.chess.Pieces;
+
+import ro.isr.deveschool.chess.Piece;
+import ro.isr.deveschool.chess.PieceColor;
+import ro.isr.deveschool.chess.Square;
 
 /**
  * Created by Mucefix on 20/10/16.
  */
-public class Queen extends Piece{
+public class Bishop extends Piece {
 
 
-    public Queen(PieceColor color, Square placeAt) {
+    public Bishop(PieceColor color, Square placeAt) {
         super(color, placeAt, false);
     }
 
