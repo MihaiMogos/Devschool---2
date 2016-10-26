@@ -1,4 +1,4 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.piece;
 
 /**
  * Created by ionut on 20.10.2016.

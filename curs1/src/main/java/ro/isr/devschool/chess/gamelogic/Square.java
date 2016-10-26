@@ -1,4 +1,4 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.gamelogic;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -11,7 +11,7 @@ import lombok.Setter;
 public class Square {
 
     /*
-    encapsulation - don't expose more than is needed
+     encapsulation - don't expose more than is needed
      public
      protected
      package - default

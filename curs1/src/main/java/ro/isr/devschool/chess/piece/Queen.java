@@ -1,4 +1,6 @@
-package ro.isr.devschool.chess;
+package ro.isr.devschool.chess.piece;
+
+import ro.isr.devschool.chess.gamelogic.Square;
 
 /**
  * Created by ionut on 20.10.2016.
