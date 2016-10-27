@@ -1,4 +1,4 @@
-package ro.isr.deveschool.chess;
+package ro.isr.devschool.chess;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

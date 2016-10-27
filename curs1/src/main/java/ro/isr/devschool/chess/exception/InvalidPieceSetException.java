@@ -1,4 +1,4 @@
-package ro.isr.deveschool.chess.exception;
+package ro.isr.devschool.chess.exception;
 
 /**
  * Created by Mucefix on 20/10/16.

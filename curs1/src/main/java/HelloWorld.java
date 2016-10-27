@@ -1,8 +1,7 @@
 import lombok.AllArgsConstructor;
-import ro.isr.deveschool.chess.Square;
+import ro.isr.devschool.chess.Square;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
