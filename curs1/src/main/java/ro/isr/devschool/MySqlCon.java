@@ -1,3 +1,5 @@
+package ro.isr.devschool;
+
 import java.sql.*;
 
 public class MySqlCon{
