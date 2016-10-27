@@ -24,7 +24,7 @@ public class HelloWorld {
         Pawn p=new Pawn(PieceColor.BLACK, new Square(1, 3), false, false,
                 new Queen(PieceColor.BLACK,new Square(1,4),false), MoveDirection.DOWN) ;
 
-        System.out.print(p.getPieceColor());
+
 
 
     }
