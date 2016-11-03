@@ -1,0 +1,22 @@
+- Program to an interface and not an implementation
+     - implementation can change
+     - testing is a lot easier
+     - dependencies are easy to introduce, but difficult to remove
+     - hide implementation
+
+- Favour Composition over Inheritance
+     - behaviour is easy to change @ runtime
+     - no assumptions when overriding
+
+- Creational Design Patterns involve object instantiation and all provide a way to decouple a client from the objects it needs to instantiate
+    - Factory - we create object without exposing the creation logic to the client and refer to  newly created object using a common interface.
+    - Abstract Factory - an interface is responsible for creating a factory of related objects  without explicitly specifying their classes. Each generated factory can give the objects as per the Factory pattern.
+    - Singleton - this pattern involves a single class which is responsible to create an object while making sure that only single object gets created. This class provides a way to access its only object which can be accessed directly without need to instantiate the object of the class.
+    - Builder - builds the final object step by step. This builder is independent of other objects.
+    - Prototype -
+
+- Behavioural Design Patterns
+
+- Structural Design Patterns
+
+- Java EE Design Patterns
