@@ -9,10 +9,8 @@
         <artifactId>deschool--2</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
-
-    <groupId>com.ing.devschool</groupId>
     <artifactId>curs3</artifactId>
-    <version>1.0-SNAPSHOT</version>
+
 
     <dependencies>
         <dependency>
