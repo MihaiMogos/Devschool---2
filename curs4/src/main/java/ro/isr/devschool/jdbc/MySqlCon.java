@@ -1,4 +1,4 @@
-package ro.isr.devschool;
+package ro.isr.devschool.jdbc;
 
 import java.sql.*;
 
@@ -7,7 +7,7 @@ public class MySqlCon{
         try{
             Class.forName("com.mysql.jdbc.Driver");
             Connection con=DriverManager.getConnection(
-                    "jdbc:mysql://localhost:3306/deschool2","root","admin");
+                    "jdbc:mysql://localhost:3306/deschool2","root","root");
             //here devschool2 is database name, root is username and password
             Statement stmt=con.createStatement();
             ResultSet rs=stmt.executeQuery("select * from employee");

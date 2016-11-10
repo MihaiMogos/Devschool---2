@@ -75,6 +75,15 @@ and objects interact and distribute responsibility.
                                 In this pattern, normally each receiver contains reference to another receiver.
                                 If one object cannot handle the request then it passes the same to the next
                                 receiver and so on.
+    - Command - data driven design pattern and falls under behavioral pattern category. A
+                        request is wrapped under an object as command and passed to invoker
+                        object. Invoker object looks for the appropriate object which can
+                        handle this command and passes the command to the corresponding object
+                        which executes the command.
+    - Iterator - ery commonly used design pattern in Java and .Net programming environment.
+                This pattern is used to get a way to access the elements of a collection
+                object in sequential manner without any need to know its underlying
+                representation.
 
 - Structural Design Patterns
 
