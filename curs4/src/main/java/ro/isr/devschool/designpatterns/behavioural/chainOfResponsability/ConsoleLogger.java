@@ -1,4 +1,4 @@
-package ro.isr.devschool.designpatterns.behavioural.chainofresponsability;
+package ro.isr.devschool.designpatterns.behavioural.chainOfResponsability;
 
 
 /**
