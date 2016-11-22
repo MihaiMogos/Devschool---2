@@ -6,7 +6,6 @@ import jpa.Employee;
 import javax.ejb.EJB;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
-import javax.faces.bean.SessionScoped;
 import java.io.Serializable;
 import java.util.Arrays;
 import java.util.List;

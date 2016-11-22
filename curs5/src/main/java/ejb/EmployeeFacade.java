@@ -2,10 +2,7 @@ package ejb;
 
 import jpa.Employee;
 
-import javax.ejb.EJB;
 import javax.ejb.Local;
-import javax.ejb.Remote;
-import javax.ejb.Stateless;
 import java.util.List;
 
 /**
@@ -15,7 +12,7 @@ import java.util.List;
 @Local
 public interface EmployeeFacade {
 
-    public List<Employee> getEmployees();
-    public void addEmployee(Employee employee);
+    List<Employee> getEmployees();
+    void addEmployee(Employee employee);
 
 }
