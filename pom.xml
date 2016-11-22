@@ -18,6 +18,7 @@
         <module>curs3</module>
         <module>curs4</module>
         <module>curs1</module>
+        <module>curs5</module>
     </modules>
 
     <dependencyManagement>
