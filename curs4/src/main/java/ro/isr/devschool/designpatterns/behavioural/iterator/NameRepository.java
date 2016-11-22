@@ -1,7 +1,7 @@
 package ro.isr.devschool.designpatterns.behavioural.iterator;
 
 /**
- * Created by Mucefix on 10/11/16.
+ * Created by Mihai MOGOS on 10/11/16.
  */
 public class NameRepository implements Container {
     public String[] names = { "Robert", "Catalin", "Alin", "Ionut" };

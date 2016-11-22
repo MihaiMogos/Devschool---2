@@ -5,7 +5,7 @@ import lombok.EqualsAndHashCode;
 import lombok.ToString;
 
 /**
- * Created by Mucefix on 03/11/16.
+ * Created by Mihai MOGOS on 03/11/16.
  */
 @Builder
 @EqualsAndHashCode

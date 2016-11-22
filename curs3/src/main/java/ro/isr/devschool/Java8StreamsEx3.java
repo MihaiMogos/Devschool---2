@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 import static java.util.Arrays.asList;
 
 /**
- * Created by Mucefix on 27/10/16.
+ * Created by Mihai MOGOS on 27/10/16.
  */
 public class Java8StreamsEx3 {
 

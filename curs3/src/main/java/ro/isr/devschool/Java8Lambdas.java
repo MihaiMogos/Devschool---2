@@ -10,7 +10,7 @@ import java.util.function.Predicate;
 import java.util.function.Supplier;
 
 /**
- * Created by Mucefix on 27/10/16.
+ * Created by Mihai MOGOS on 27/10/16.
  */
 public class Java8Lambdas {
     public static void main(String[] args){

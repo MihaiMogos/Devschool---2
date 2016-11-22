@@ -1,4 +1,4 @@
-package jsf.model;
+package jsf.model.employee;
 
 import ejb.EmployeeFacade;
 import jpa.Employee;
@@ -11,7 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by Mucefix on 22/11/16.
+ * Created by Mihai MOGOS on 22/11/16.
  */
 @ManagedBean(name="employeeBean")
 @RequestScoped

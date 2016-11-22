@@ -1,4 +1,4 @@
-package jsf.model;
+package jsf.model.employee;
 
 import ejb.EmployeeFacade;
 import jpa.Employee;
@@ -10,7 +10,7 @@ import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
 /**
- * Created by Mucefix on 22/11/16.
+ * Created by Mihai MOGOS on 22/11/16.
  */
 @ManagedBean(name="employeeBeanAdd")
 @RequestScoped

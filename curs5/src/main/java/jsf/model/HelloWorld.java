@@ -1,5 +1,5 @@
 package jsf.model; /**
- * Created by Mucefix on 21/11/16.
+ * Created by Mihai MOGOS on 21/11/16.
  */
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.ManagedProperty;

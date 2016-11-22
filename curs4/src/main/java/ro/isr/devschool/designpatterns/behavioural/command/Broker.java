@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Mucefix on 10/11/16.
+ * Created by Mihai MOGOS on 10/11/16.
  */
 public class Broker {
 

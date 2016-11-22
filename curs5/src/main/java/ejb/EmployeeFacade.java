@@ -6,7 +6,7 @@ import javax.ejb.Local;
 import java.util.List;
 
 /**
- * Created by Mucefix on 22/11/16.
+ * Created by Mihai MOGOS on 22/11/16.
  */
 
 @Local

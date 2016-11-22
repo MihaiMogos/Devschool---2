@@ -1,6 +1,5 @@
-package jsf.model; /**
- * Created by Mucefix on 22/11/16.
- */
+package jsf.model;
+
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 
@@ -8,7 +7,7 @@ import javax.faces.bean.RequestScoped;
 @RequestScoped
 public class Message {
 
-    private String message = "Hello World!";
+    private String message = "Hello JSF World!";
 
     public String getMessage() {
         return message;

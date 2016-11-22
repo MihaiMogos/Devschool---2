@@ -1,7 +1,7 @@
 package ro.isr.deveschool.chess.exception;
 
 /**
- * Created by Mucefix on 20/10/16.
+ * Created by Mihai MOGOS on 20/10/16.
  */
 public class InvalidPieceSetException extends RuntimeException {
 

@@ -9,7 +9,7 @@ import javax.persistence.Query;
 import java.util.List;
 
 /**
- * Created by Mucefix on 22/11/16.
+ * Created by Mihai MOGOS on 22/11/16.
  */
 @Stateless
 public class EmployeeFacadeImpl implements EmployeeFacade{

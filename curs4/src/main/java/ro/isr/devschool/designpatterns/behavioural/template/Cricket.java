@@ -3,7 +3,7 @@ package ro.isr.devschool.designpatterns.behavioural.template;
 import com.sun.org.apache.xpath.internal.SourceTree;
 
 /**
- * Created by Mucefix on 10/11/16.
+ * Created by Mihai MOGOS on 10/11/16.
  */
 public class Cricket extends Game {
     @Override

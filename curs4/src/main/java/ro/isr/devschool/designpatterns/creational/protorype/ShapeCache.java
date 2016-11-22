@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by Mucefix on 03/11/16.
+ * Created by Mihai MOGOS on 03/11/16.
  */
 public class ShapeCache {
 

@@ -5,7 +5,7 @@ import lombok.Getter;
 import lombok.Setter;
 
 /**
- * Created by Mucefix on 20/10/16.
+ * Created by Mihai MOGOS on 20/10/16.
  */
 @AllArgsConstructor
 public class Square {

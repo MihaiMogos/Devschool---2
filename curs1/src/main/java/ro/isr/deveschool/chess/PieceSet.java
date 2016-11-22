@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Mucefix on 20/10/16.
+ * Created by Mihai MOGOS on 20/10/16.
  */
 @Getter
 public class PieceSet {

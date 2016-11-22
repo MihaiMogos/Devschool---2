@@ -3,7 +3,7 @@ import ro.isr.deveschool.chess.Square;
 import java.util.Collections;
 
 /**
- * Created by Mucefix on 16/10/16.
+ * Created by Mihai MOGOS on 16/10/16.
  */
 public class HelloWorld {
 

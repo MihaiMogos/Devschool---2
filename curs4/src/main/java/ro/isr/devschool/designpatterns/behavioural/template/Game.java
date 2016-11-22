@@ -1,7 +1,7 @@
 package ro.isr.devschool.designpatterns.behavioural.template;
 
 /**
- * Created by Mucefix on 10/11/16.
+ * Created by Mihai MOGOS on 10/11/16.
  */
 public abstract class Game {
 

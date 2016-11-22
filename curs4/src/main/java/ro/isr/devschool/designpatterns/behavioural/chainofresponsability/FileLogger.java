@@ -1,7 +1,7 @@
 package ro.isr.devschool.designpatterns.behavioural.chainofresponsability;
 
 /**
- * Created by Mucefix on 03/11/16.
+ * Created by Mihai MOGOS on 03/11/16.
  */
 public class FileLogger extends AbstractLogger {
 
