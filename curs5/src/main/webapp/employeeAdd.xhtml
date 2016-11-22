@@ -13,7 +13,7 @@
         <h:form>
             <table>
                 <tr>
-                    <td> <h:messages showDetail="true" /> </td>
+                    <td> <h:messages showDetail="false" /> </td>
                 </tr>
                 <tr>
                     <td><h:outputText value="Enter Id : "/></td>
@@ -21,11 +21,11 @@
                 </tr>
                 <tr>
                     <td><h:outputText value="Enter Name : " /></td>
-                    <td><h:inputText value="#{employeeBeanAdd.name}" /></td>
+                    <td><h:inputText value="#{employeeBeanAdd.name}" required="true" requiredMessage="Name is mandatory"/></td>
                 </tr>
                 <tr>
                     <td><h:outputText value="Enter your salary : "/></td>
-                    <td><h:inputText value="#{employeeBeanAdd.salary}" /></td>
+                    <td><h:inputText value="#{employeeBeanAdd.salary}" required="true" requiredMessage="Salary is mandatory"/></td>
                 </tr>
                 <tr>
                     <td><h:commandButton value="Cancel"  action="employees"/></td>
