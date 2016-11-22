@@ -4,4 +4,22 @@
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
               xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_2_0.xsd"
               version="2.0">
+
+    <navigation-rule>
+        <description>add employee</description>
+        <from-view-id>/employeeAdd.xhtml.xhtml</from-view-id>
+
+        <navigation-case>
+            <from-action>#{user.add}</from-action>
+            <from-outcome>employees</from-outcome>
+            <to-view-id>/employees.xhtml</to-view-id>
+        </navigation-case>
+
+        <navigation-case>
+            <from-action>#{employees.add}</from-action>
+            <from-outcome>employeeInvalid</from-outcome>
+            <to-view-id>/employeeInvalid.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+
 </faces-config>

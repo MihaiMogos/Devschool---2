@@ -16,5 +16,6 @@ import java.util.List;
 public interface EmployeeFacade {
 
     public List<Employee> getEmployees();
+    public void addEmployee(Employee employee);
 
 }

@@ -15,7 +15,7 @@ public class HelloWorld {
     private String message;
 
     public HelloWorld() {
-        System.out.println("HelloWorld started!");
+        System.out.println("Hello JSF World");
     }
     public String getMessage() {
         if(messageBean != null){
