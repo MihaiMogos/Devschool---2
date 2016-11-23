@@ -19,6 +19,7 @@
         <module>curs4</module>
         <module>curs1</module>
         <module>curs5</module>
+        <module>curs6</module>
     </modules>
 
     <dependencyManagement>
