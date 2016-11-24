@@ -20,6 +20,7 @@
         <module>curs1</module>
         <module>curs5</module>
         <module>curs6</module>
+        <module>curs6-inclass</module>
     </modules>
 
     <dependencyManagement>
