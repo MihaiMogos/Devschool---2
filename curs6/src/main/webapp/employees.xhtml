@@ -39,7 +39,7 @@
         <h:column>
             <f:facet name="header">Action</f:facet>
             <h:form>
-                <h:commandLink value="Delete" action="#{employeeBean.deleteEmployee(e)}" />
+                <h:commandLink value="Delete" onclick="if (! confirm('Are you sure you want to remove #{e.name} ?')) return false" action="#{employeeBean.deleteEmployee(e)}" />
             </h:form>
         </h:column>
 
