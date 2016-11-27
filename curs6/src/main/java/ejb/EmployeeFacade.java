@@ -14,5 +14,6 @@ public interface EmployeeFacade {
 
     List<Employee> getEmployees();
     void addEmployee(Employee employee);
+    void deleteEmployee(Employee employee);
 
 }

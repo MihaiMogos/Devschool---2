@@ -36,6 +36,13 @@
             #{e.salary}
         </h:column>
 
+        <h:column>
+            <f:facet name="header">Action</f:facet>
+            <h:form>
+                <h:commandLink value="Delete" action="#{employeeBean.deleteEmployee(e)}" />
+            </h:form>
+        </h:column>
+
     </h:dataTable>
 
 </h:body>

@@ -35,5 +35,10 @@ public class EmployeeBean implements Serializable{
         return employeeFacade.getEmployees();
     }
 
+    public String deleteEmployee(Employee employee){
+        employeeFacade.deleteEmployee(employee);
+        return null;
+    }
+
 
 }

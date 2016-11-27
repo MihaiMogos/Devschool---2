@@ -24,4 +24,9 @@ public class EmployeeFacadeImpl implements EmployeeFacade{
     public void addEmployee(Employee employee){
         entityManager.persist(employee);
     }
+
+    public void deleteEmployee(Employee employee){
+        employee = entityManager.merge(employee);
+        entityManager.remove(employee);
+    }
 }
