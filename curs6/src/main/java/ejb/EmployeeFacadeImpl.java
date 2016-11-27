@@ -29,4 +29,8 @@ public class EmployeeFacadeImpl implements EmployeeFacade{
         employee = entityManager.merge(employee);
         entityManager.remove(employee);
     }
+
+    public Employee findEmployee(Integer id) {
+        return entityManager.find(Employee.class, id);
+    }
 }
