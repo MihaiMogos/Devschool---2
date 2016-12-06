@@ -22,4 +22,17 @@ public class EmployeeFacadeImpl implements EmployeeFacade{
         return (List<Employee>) query.getResultList();
     }
 
+    public void addEmployee(Employee employee){
+        entityManager.persist(employee);
+    }
+
+    public void deleteEmployee(Employee employee){
+        employee = entityManager.merge(employee);
+        entityManager.remove(employee);
+    }
+
+    public Employee findEmployee(Integer id) {
+        return entityManager.find(Employee.class, id);
+    }
+
 }

@@ -13,5 +13,8 @@ import java.util.List;
 public interface EmployeeFacade {
 
     List<Employee> getEmployees();
+    void addEmployee(Employee employee);
+    void deleteEmployee(Employee employee);
+    Employee findEmployee(Integer id);
 
 }

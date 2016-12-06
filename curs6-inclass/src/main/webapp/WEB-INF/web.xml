@@ -17,4 +17,15 @@
         <servlet-name>Faces Servlet</servlet-name>
         <url-pattern>*.xhtml</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>IbmRestServlet</servlet-name>
+        <servlet-class>com.ibm.websphere.jaxrs.server.IBMRestServlet</servlet-class>
+        <init-param>
+            <param-name>javax.ws.rs.Application</param-name>
+            <param-value>jaxrs.application.EmployeesRestApplication</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
 </web-app>

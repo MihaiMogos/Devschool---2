@@ -18,26 +18,25 @@
                  headerClass="employee-table-header"
                  rowClasses="employee-table-odd-row,employee-table-even-row"
             >
-
         <h:column>
             <!-- column header -->
             <f:facet name="header">Employee Id</f:facet>
             <!-- row record -->
             #{e.id}
         </h:column>
-
         <h:column>
             <f:facet name="header">Employee Name</f:facet>
             #{e.name}
         </h:column>
-
         <h:column>
             <f:facet name="header">Employee Salary</f:facet>
             #{e.salary}
         </h:column>
-
     </h:dataTable>
 
 </h:body>
-
+<h:form>
+    <h:outputText value="Add new employee "/>
+    <h:outputLink value="employeeAdd.xhtml">Here</h:outputLink>
+</h:form>
 </html>
