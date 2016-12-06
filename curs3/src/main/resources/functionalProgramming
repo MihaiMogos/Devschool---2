@@ -1,0 +1,36 @@
+-You spend much more time reading code, than writing code.
+-Lambda  expressions - easier way to write anonymuous classes
+-Type of a lambda - functional interface
+-Creating a new object is not free: get memory, clean the memory, execute static initializer, execute static blocks, non static initializers, non static blocks, execute constructor from all classes in the hierarchy
+-With lambda you do not do all that, you do not create an object, you do not call new
+- java.util.function - rich set of functional interfaces - 43
+-4 categories of functional interfaces:
+    - Consumer - expects an object and does not return anything - sout
+        - Lambda: Consumer<T> c = p -> System.out.println(p)
+        - Method refference: Consumet<T> c = System.out::println
+        - BiConsumer - takes two objects - comparator
+    - Supplier - does not take any parameter and provides a new object
+    - Function
+          - takes an object as a parameter and returns another object
+          - BiFunction as well
+          - UnaryOperator - takes an object and returns an object of the
+    - Predicate
+       - takes a parameter and returns a boolean
+       - BiPredicate as well
+       - has the methods: test + default: and, or, negate + static: isEqual()
+
+STREAMS
+-map / filter / reduce
+1. map -> uses a Function; takes a List<Person> and returns a List<Integer>; THE SIZE OF THE BOTH LIST IS THE SAME ; changes the type
+2. filter -> uses a predicate; takes a List<Integer> and returns a List<Integer> ; does not change the type, but changes the SIZE
+3. reduce -> this is the reduction step, equivalent to SQL aggregation
+ -> two types of reduction
+   - basic: SQL operation - min, max, sum, average...
+   - Collectors - to a map, to a list, to a string
+
+
+Optional - isPresent()
+         - get()
+         - orElse(T)
+         - orElseThrow(MyException:new)
+

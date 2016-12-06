@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<server description="new server">
+  <!-- Enable features -->
+  <featureManager>
+    <feature>webProfile-7.0</feature>
+    <feature>localConnector-1.0</feature>
+    <feature>jsf-2.2</feature>
+    <feature>managedBeans-1.0</feature>
+    <feature>cdi-1.2</feature>
+    <feature>jpa-2.1</feature>
+    <feature>jaxrs-2.0</feature>
+    <feature>json-1.0</feature>
+    <feature>beanValidation-1.1</feature>
+  </featureManager>
+  <!-- To access this server from a remote client add a host attribute to the following element, e.g. host="*" -->
+  <httpEndpoint id="defaultHttpEndpoint" httpPort="9080" httpsPort="9443" />
+  <!-- Automatically expand WAR files and EAR files -->
+  <applicationManager autoExpand="true" />
+  <applicationMonitor updateTrigger="mbean" />
+  <application id="curs6_inclass_war_exploded" location="C:\workspace\Devschool---2\curs6-inclass\target\curs6-inclass-1.0-SNAPSHOT" name="curs6_inclass_war_exploded" type="war" context-root="/employees" />
+  <library id="MySQLLib">
+    <fileset dir="${shared.resource.dir}/mysql" includes="*.jar" />
+  </library>
+  <dataSource id="jdbc/helloWorldDS" jndiName="jdbc/helloWorldDS">
+    <jdbcDriver libraryRef="MySQLLib" />
+    <properties databaseName="deschool2" serverName="localhost" portNumber="3306" user="root" password="root" />
+  </dataSource>
+</server>
+
