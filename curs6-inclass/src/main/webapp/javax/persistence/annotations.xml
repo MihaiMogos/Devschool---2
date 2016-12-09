@@ -1,0 +1,5 @@
+<root>
+  <item name='javax.persistence.Query java.util.List getResultList()'>
+    <annotation name='org.jetbrains.annotations.NotNull'/>
+  </item>
+</root>
