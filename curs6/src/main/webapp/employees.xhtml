@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+        >
+<h:head>
+    <h:outputStylesheet library="css" name="table-style.css"  />
+</h:head>
+<h:body>
+
+    <h1>Employees List</h1>
+
+    <h:dataTable value="#{employeeBean.employees}" var="e"
+                 styleClass="employee-table"
+                 headerClass="employee-table-header"
+                 rowClasses="employee-table-odd-row,employee-table-even-row"
+            >
+
+        <h:column>
+            <!-- column header -->
+            <f:facet name="header">Employee Id</f:facet>
+            <!-- row record -->
+            #{e.id}
+        </h:column>
+
+        <h:column>
+            <f:facet name="header">Employee Name</f:facet>
+            #{e.name}
+        </h:column>
+
+        <h:column>
+            <f:facet name="header">Employee Salary</f:facet>
+            #{e.salary}
+        </h:column>
+
+        <h:column>
+            <f:facet name="header">Action</f:facet>
+            <h:form>
+                <h:commandLink value="Delete" onclick="if (! confirm('Are you sure you want to remove #{e.name} ?')) return false" action="#{employeeBean.deleteEmployee(e)}" />
+            </h:form>
+        </h:column>
+
+    </h:dataTable>
+
+</h:body>
+<h:form>
+    <h:outputText value="Add new employee "/>
+    <h:outputLink value="employeeAdd.xhtml">Here</h:outputLink>
+</h:form>
+</html>
