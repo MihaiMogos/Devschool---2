@@ -2,6 +2,7 @@ package ro.isr.deveschool.atm;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Optional;
 
 public class BankDatabase {
     private List<Account> accounts = new ArrayList<>();
@@ -12,11 +13,7 @@ public class BankDatabase {
     }
 
     private Account getAccount(int accountNumber) {
-        for (Account currentAccount : accounts) {
-            if (currentAccount.getAccountNumber() == accountNumber)
-                return currentAccount;
-        }
-        return null;
+        return accounts.stream().filter(x -> x.getAccountNumber() == accountNumber).findFirst().orElse(null);
     }
 
     public boolean authenticateUser(int userAccountNumber, int userPIN) {
