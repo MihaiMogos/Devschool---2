@@ -1,7 +1,7 @@
 package ro.isr.deveschool.atm;
 
 public class CashDispenser {
-    private final static int INITIAL_BILLS = 500;
+    private final static int INITIAL_BILLS = 50;
     private int availableBills;
     public CashDispenser() {
         availableBills = INITIAL_BILLS;
