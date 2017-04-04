@@ -8,8 +8,8 @@ public class BankDatabase {
     private List<Account> accounts = new ArrayList<>();
 
     public BankDatabase() {
-        accounts.add(new Account(12345, 54321, 1000.0, 1200.0));
-        accounts.add(new Account(98765, 56789, 200.0, 200.0));
+        accounts.add(new Account(12345, 54321, 1000.0));
+        accounts.add(new Account(98765, 56789, 200.0));
     }
 
     private Account getAccount(int accountNumber) {
@@ -25,9 +25,6 @@ public class BankDatabase {
         }
     }
 
-    public double getAvailableBalance(int userAccountNumber) {
-        return getAccount(userAccountNumber).getAvailableBalance();
-    }
     public double getTotalBalance(int userAccountNumber) {
         return getAccount(userAccountNumber).getTotalBalance();
     }

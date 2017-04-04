@@ -3,6 +3,7 @@ package ro.isr.devschool;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 import java.util.Arrays;
 import java.util.List;
@@ -55,11 +56,19 @@ public class Java8Streams {
                                             .filter(age -> age > 20)
                                             .collect(Collectors.toList());
         personsAgesAbove20.forEach(System.out::println);
+
+        List<Person> personsAbove20= persons.stream()
+                //.map(person -> person.getAge())
+                .filter(person -> person.getAge() > 20)
+                .collect(Collectors.toList());
+        personsAbove20.forEach(System.out::println);
+
     }
 
 
     @AllArgsConstructor
     @Getter @Setter
+    @ToString
     static class Person{
         int age;
         String name;

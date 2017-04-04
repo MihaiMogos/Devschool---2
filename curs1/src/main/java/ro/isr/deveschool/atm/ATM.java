@@ -16,7 +16,6 @@ public class ATM {
     private Screen screen;
     private Keypad keypad;
     private CashDispenser cashDispenser;
-    private DepositSlot depositSlot;
     private BankDatabase bankDatabase;
 
     public ATM() {
@@ -25,7 +24,6 @@ public class ATM {
         screen = new Screen();
         keypad = new Keypad();
         cashDispenser = new CashDispenser();
-        depositSlot = new DepositSlot();
         bankDatabase = new BankDatabase();
     }
 
@@ -107,7 +105,7 @@ public class ATM {
                 temp = new Withdrawal(currentAccountNumber, screen, bankDatabase, keypad, cashDispenser);
                 break;
             case DEPOSIT:
-                temp = new Deposit(currentAccountNumber, screen, bankDatabase, keypad, depositSlot);
+                temp = new Deposit(currentAccountNumber, screen, bankDatabase, keypad);
                 break;
         }
         return temp;

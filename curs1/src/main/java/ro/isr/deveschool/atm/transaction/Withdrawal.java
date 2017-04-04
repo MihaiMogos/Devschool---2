@@ -11,10 +11,10 @@ public class Withdrawal extends Transaction {
     private Keypad keypad;
     private CashDispenser cashDispenser;
 
-    public Withdrawal(int userAccountNumber, Screen atmScreen, BankDatabase atmBankDatabase, Keypad atmKeypad, CashDispenser atmCashDispenser) {
-        super(userAccountNumber, atmScreen, atmBankDatabase);
-        keypad = atmKeypad;
-        cashDispenser = atmCashDispenser;
+    public Withdrawal(int accountNumber, Screen screen, BankDatabase bankDatabase, Keypad keypad, CashDispenser cashDispenser) {
+        super(accountNumber, screen, bankDatabase);
+        this.keypad = keypad;
+        this.cashDispenser = cashDispenser;
     }
 
     @Override
@@ -29,7 +29,7 @@ public class Withdrawal extends Transaction {
         do {
             amount = displayMenuOfAmounts();
             if (amount != CANCELED) {
-                availableBalance = bankDatabase.getAvailableBalance(getAccountNumber());
+                availableBalance = bankDatabase.getTotalBalance(getAccountNumber());
 
                 if (amount <= availableBalance) {
                     if (cashDispenser.hasSufficientBills(amount)) {

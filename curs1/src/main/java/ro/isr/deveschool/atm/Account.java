@@ -7,15 +7,12 @@ import lombok.Getter;
 public class Account {
     @Getter private int accountNumber;
     private int pin;
-    @Getter private double availableBalance;
     @Getter private double totalBalance; // funds available + pending deposits
 
-    public Account(int theAccountNumber, int thePIN,
-                   double theAvailableBalance, double theTotalBalance) {
-        accountNumber = theAccountNumber;
-        pin = thePIN;
-        availableBalance = theAvailableBalance;
-        totalBalance = theTotalBalance;
+    public Account(int accountNumber, int pin, double totalBalance) {
+        this.accountNumber = accountNumber;
+        this.pin = pin;
+        this.totalBalance = totalBalance;
     }
 
     // determines whether a user-specified PIN matches PIN in Account
@@ -31,7 +28,6 @@ public class Account {
     }
 
     public void debit(double amount) {
-        availableBalance -= amount;
         totalBalance -= amount;
     }
 
